@@ -14,10 +14,10 @@ namespace TestConsole130220
             String x_str = Console.ReadLine();
             Console.Write("Введите y>");
             String y_str = Console.ReadLine();
-            int x = int.Parse(x_str);
-            int y = int.Parse(x_str);
-            int z = x + y;
-            Console.WriteLine($"{x} + {y} = {z}");
+            double x = double.Parse(x_str);
+            double y = double.Parse(x_str);
+            double z = x / y;
+            Console.WriteLine($"{x} / {y} = {z:F3}"); //или {2: 0.00##}
             Console.ReadLine();
         }
     }
